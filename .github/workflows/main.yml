@@ -15,4 +15,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: current time and date
-        run: data
+        run: data -u
